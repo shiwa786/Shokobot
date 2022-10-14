@@ -14,20 +14,20 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    BOT_TOKEN = "bot_token"
+    BOT_TOKEN = "5643681960:AAHwNOqT9DFsxYDvCudTe2IOAkwjA_RghQQ"
     OWNER_ID = (
-        "1258544708"  # If you dont know, run the bot and do /id in your private chat with it
+        "5497627952"  # If you dont know, run the bot and do /id in your private chat with it
     )
-    OWNER_USERNAME = ""
+    OWNER_USERNAME = "Denvil_xdd"
     TELETHON_HASH =  ' ' 
     TELETHON_ID = 123456
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
-    REDIS_URI = " "
-    MESSAGE_DUMP = -100  # needed to make sure 'save from' messages persist
-    GBAN_DUMP = -100
-    ERROR_DUMP = -100
+    SQLALCHEMY_DATABASE_URI = "postgres://sllmmevjuasmdq:e5fb34859df15ca8765804b14fb18ef0a0049444b3c74c06e0caf504e4f6ff7f@ec2-44-209-24-62.compute-1.amazonaws.com:5432/dd3fq8ghhgvkbl"  # needed for any database modules
+    REDIS_URI = "redis://ok:Da%4012345@redis-15098.c56.east-us.azure.cloud.redislabs.com:15098"
+    MESSAGE_DUMP = -1001747540803  # needed to make sure 'save from' messages persist
+    GBAN_DUMP = -1001747540803
+    ERROR_DUMP = -1001747540803
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
